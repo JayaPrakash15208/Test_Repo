@@ -1,0 +1,64 @@
+LEVEL 1 — Terraform Fundamentals
+│
+├── File structure
+├── Provider
+├── Resource
+├── Variables
+├── tfvars
+├── Outputs
+├── init
+├── plan
+├── apply
+├── destroy
+└── State
+        ↓
+LEVEL 2 — EC2
+│
+├── Dynamic AMI
+├── Key pair
+├── Security Group
+├── Public IP
+├── User data
+└── SSH
+        ↓
+LEVEL 3 — Variables & Reusability
+│
+├── variable types
+├── locals
+├── maps
+├── lists
+├── conditional expressions
+├── count
+└── for_each
+        ↓
+LEVEL 4 — AWS Infrastructure
+│
+├── VPC
+├── Subnets
+├── Route tables
+├── Internet Gateway
+├── NAT Gateway
+├── Security Groups
+└── EC2
+        ↓
+LEVEL 5 — Real Terraform
+│
+├── Modules
+├── Remote state
+├── S3 backend
+├── State locking
+├── Workspaces
+├── Import
+├── Drift
+└── Terraform troubleshooting
+        ↓
+LEVEL 6 — DevOps/Production
+│
+├── Terraform + Git
+├── Terraform + Jenkins
+├── Terraform + GitHub Actions
+├── CI/CD
+├── AWS IAM
+├── Secrets
+├── Terraform plan in PR
+└── Production IaC practices
